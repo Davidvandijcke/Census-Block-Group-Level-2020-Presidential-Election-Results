@@ -1,0 +1,22 @@
+# Census-Block-Group-Level-2020-Presidential-Election-Results
+A dataset ('data/out/precinct_cbgs_all_2020.csv.gz') with estimates of Census Block Group level 2020 presidential election results, and the underlying data and code that generated it. 
+
+Derived from the [dataset](https://github.com/TheUpshot/presidential-precinct-map-2020) compiled by the New York Times and the Census Block Group [shapefiles](https://www2.census.gov/geo/tiger/TIGER2019/BG/) from the Census Bureau. All non-voting variables are defined and named as in those shapefiles. All voting variables are defined and named as in the NYT geojson. For a description of the matching algorithm, see Van Dijcke and Wright (2021). 
+
+Please cite: 
+Park, Alice, Charlie Smart, Rumsey Taylor, and Miles Watkins. "An Extremely Detailed Map of the 2020 Election." The New York Times. February 02, 2021. Accessed February 04, 2021. https://www.nytimes.com/interactive/2021/upshot/2020-election-map.html.
+Van Dijcke, David and Wright, Austin L., Profiling Insurrection: Characterizing Collective Action Using Mobile Device Data (January 31, 2021). Available at SSRN: https://ssrn.com/abstract=3776854
+
+
+| variable name     | description                                                                     |
+|-------------------|--------------------------------------------------------------------             |
+| `statefp`         | State FIPS code                                                                 |
+| `countyfp`        | County FIPS code                                                                |
+| `tractce`         | Tract FIPS code                                                                 |
+| `blkgrpce`        | Block Group FIPS code                                                           |
+| `geoid`           | Full 12-digit FIPS code                                                         |
+| `intptlat`        | Current latitude of the internal point                                          |
+| `intptlon`        | Current longitude of the internal point                                         |
+| `votes_total`     | total votes in the precinct, including for third-party candidates and write-ins |
+| `votes_rep`       | votes received by Donald Trump                                                  |
+| `votes_dem`       | votes received by Joseph Biden                                                  |
