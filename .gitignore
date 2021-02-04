@@ -2,3 +2,8 @@
 .Rhistory
 .RData
 .Ruserdata
+*.dbf
+*.prj
+*.shp
+*.shx
+*.geojson
