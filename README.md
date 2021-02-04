@@ -3,6 +3,8 @@ A dataset ('data/out/precinct_cbgs_all_2020.csv.gz') with estimates of Census Bl
 
 Derived from the [dataset](https://github.com/TheUpshot/presidential-precinct-map-2020) compiled by the New York Times and the Census Block Group [shapefiles](https://www2.census.gov/geo/tiger/TIGER2019/BG/) from the Census Bureau. All non-voting variables are defined and named as in those shapefiles. All voting variables are defined and named as in the NYT geojson. For a description of the matching algorithm, see Van Dijcke and Wright (2021). 
 
+Download the raw data that goes in the `/data/` folder [here](https://www.dropbox.com/sh/nyuiwr1mbbprjx4/AABA051-RLh4rTCMzTfrf7Y-a?dl=0).
+
 Please cite: 
 Park, Alice, Charlie Smart, Rumsey Taylor, and Miles Watkins. "An Extremely Detailed Map of the 2020 Election." The New York Times. February 02, 2021. Accessed February 04, 2021. https://www.nytimes.com/interactive/2021/upshot/2020-election-map.html.
 Van Dijcke, David and Wright, Austin L., Profiling Insurrection: Characterizing Collective Action Using Mobile Device Data (January 31, 2021). Available at SSRN: https://ssrn.com/abstract=3776854
