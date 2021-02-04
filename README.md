@@ -24,7 +24,7 @@ Van Dijcke, David and Wright, Austin L., Profiling Insurrection: Characterizing 
 | `votes_dem`       | votes received by Joseph Biden                                                  |
 
 
-|⚠️||⚠️||⚠️| **Important note:** |⚠️||⚠️||⚠️| the current NYT dataset is incomplete. We only include states that either have full precinct coverage, or where precinct-level results are missing entirely for certain counties -- as in that case, they will be missing entirely for the CBGs within those counties, and so there won't be missing CBGs within the precincts. Use with caution. For a list of state-specific data collection issues, see the NYT [Git repository](https://github.com/TheUpshot/presidential-precinct-map-2020). 
+⚠️⚠️⚠️ **Important note:** ⚠️⚠️⚠️ the current NYT dataset is incomplete. We only include states that either have full precinct coverage, or where precinct-level results are missing entirely for certain counties -- as in that case, they will be missing entirely for the CBGs within those counties, and so there won't be missing CBGs within the precincts. Use with caution. For a list of state-specific data collection issues, see the NYT [Git repository](https://github.com/TheUpshot/presidential-precinct-map-2020). 
 The states currently included are: 
 `AZ`, `AR`, `CO`, `DE`, `DC`, `GA`, `HI`, `ID`, `IA`, `IL`, `ID`, `KS`, `MD`, `MA`, `MI`, `MN`, `MS`, `MT` , `NE`, `NV`, `NM`, `NY`, `NC`, `ND`, `OH`, `OK`, `OR`, `PA`, `SD`, `TN`, `UT`, `WA`, `WV`, `WI`, `WY`
 ~                                                   
