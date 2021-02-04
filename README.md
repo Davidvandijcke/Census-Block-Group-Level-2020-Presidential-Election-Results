@@ -1,7 +1,7 @@
 # Census-Block-Group-Level-2020-Presidential-Election-Results
 A dataset ('data/out/precinct_cbgs_all_2020.csv.gz') with estimates of Census Block Group level 2020 presidential election results, and the underlying data and code that generated it. 
 
-Derived from the [dataset](https://github.com/TheUpshot/presidential-precinct-map-2020) compiled by the New York Times and the Census Block Group [shapefiles](https://www2.census.gov/geo/tiger/TIGER2019/BG/) from the Census Bureau. All non-voting variables are defined and named as in those shapefiles. All voting variables are defined and named as in the NYT geojson. For a description of the matching algorithm, see Van Dijcke and Wright (2021). 
+Derived from the [dataset](https://github.com/TheUpshot/presidential-precinct-map-2020) compiled by the New York Times and the Census Block Group [shapefiles](https://www2.census.gov/geo/tiger/TIGER2019/BG/) from the Census Bureau. All non-voting variables are defined and named as in those shapefiles. All voting variables are defined and named as in the NYT geojson. For a description of the matching algorithm, see Van Dijcke and Wright (2021). Credit to [Maria Milosh](https://scholar.google.com/citations?user=j7_LsGoAAAAJ&hl=en) for coding help.
 
 Download the raw data that goes in the `/data/` folder [here](https://www.dropbox.com/sh/nyuiwr1mbbprjx4/AABA051-RLh4rTCMzTfrf7Y-a?dl=0).
 
