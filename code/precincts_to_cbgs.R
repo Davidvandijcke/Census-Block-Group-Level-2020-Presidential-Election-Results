@@ -81,10 +81,10 @@ cbg_out <- cbg_stacked %>% sf::st_drop_geometry() %>%
 
 # code up missings
 stateNames <- as.data.table(maps::state.fips)
-state_list <- stateNames[abb %in% c("AZ", "AR", "CO", "DE", "DC", "GA", "HI", "ID", "IA", "IL", "ID", "KS", "MD", "MA", "MI", "MN", "MS", 
-                                    "MT" ,"NE", "NV", "NM", "NY", "NC", "ND", "OH", "OK", "OR", "PA", "SD", "TN", "UT", "WA", "WV", "WI", 
+state_list <- stateNames[abb %in% c("AZ", "AR", "CA", "CO", "DE", "DC", "FL", "GA", "HI", "ID", "IA", "IL", "ID", "KS", "LA", "MD", "MA", "MI", "MN", "MS", 
+                                    "MT" ,"NE", "NV", "NM", "NY", "NC", "ND", "OH", "OK", "OR", "PA", "SC", "SD", "TN", "TX", "UT", "VA", "WA", "WV", "WI", 
                                     "WY")]$fips # keep only states with complete results, as coded on the NYT github
-cbg_out <- cbg_out[statefp %in% state_list]
+cbg_out <- cbg_out[cbg_out$statefp %in% state_list]
 
 fwrite(cbg_out, file.path(dir, 'out', "precinct_cbgs_all_2020.csv.gz"))
 
