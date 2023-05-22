@@ -7,3 +7,5 @@
 *.shp
 *.shx
 *.geojson
+*.csv
+/data/PRESIDENT_precinct_general.csv
