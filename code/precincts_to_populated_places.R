@@ -77,7 +77,7 @@ for(j in 1:nrow(cbg_stacked) ) {
 } # end j loop
 
 cbg_out <- cbg_stacked %>% sf::st_drop_geometry() %>% 
-  dplyr::select(statefp, countyfp, tractce, blkgrpce, geoid, intptlat, intptlon, votes_total, votes_rep, votes_dem) # to data table + select columns
+  dplyr::select("fid", "name", "class", "st", "stfips", "placefips", "population", "pop_class", "pop_sqmi", "sqmi", "shape_leng", "shape_area","votes_total", "votes_rep", "votes_dem", "votes_total", "votes_rep", "votes_dem") # to data table + select columns
 
 
 fwrite(cbg_out, file.path(dir, 'out', "census_populated_places_all_2020.csv.gz"))
